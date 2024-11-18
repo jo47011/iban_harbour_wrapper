@@ -1,0 +1,9 @@
+# $Id: test.hbp,v 1.1 2012/07/08 12:54:56 jo47011 Exp $
+
+# hbmk2 -rebuild -trace test.hbp
+
+-std
+-otest.exe
+-ldflag=-L.
+hbiban.hbc
+test.prg

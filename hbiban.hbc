@@ -1,0 +1,4 @@
+# $Id: hbiban.hbc,v 1.1 2012/07/08 12:54:56 jo47011 Exp $
+
+incpaths=.
+libs=hbiban
