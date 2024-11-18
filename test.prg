@@ -6,13 +6,11 @@
 PROCEDURE MAIN()
 LOCAL iban, bic
 LOCAL a, i
-  //iban := iban_from_bban("06619000073086000", "DE")
-  iban := iban_from_blz_kto("54550010", "1589043")
+  iban := iban_from_blz_kto("477239024342", "2223234234")
   ? iban_expand(iban)
   ? iban_verify(iban), iban_error(iban_verify(iban))
 
-  //bic := "LUHS DE 6A"
-  bic := bic_join(bic_split(bic_collapse("LUHS DE 6A")))
+  bic := bic_join(bic_split(bic_collapse("INGFOO DE 6A")))
   ? bic
   ? bic_verify(bic), bic_error(bic_verify(bic))
 
